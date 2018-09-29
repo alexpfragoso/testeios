@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pexels-photo-248771" translatesAutoresizingMaskIntoConstraints="NO" id="zsA-N8-qNr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ufh-xb-Nii">
+                                <rect key="frame" x="0.0" y="393" width="375" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.7029939177852349" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zsA-N8-qNr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5I9-pY-ISO"/>
+                            <constraint firstItem="zsA-N8-qNr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KRy-xU-xpY"/>
+                            <constraint firstAttribute="trailing" secondItem="ufh-xb-Nii" secondAttribute="trailing" id="Or4-Zs-1s8"/>
+                            <constraint firstItem="ufh-xb-Nii" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="U12-n4-Gcn"/>
+                            <constraint firstAttribute="bottom" secondItem="zsA-N8-qNr" secondAttribute="bottom" id="UDq-bO-GCc"/>
+                            <constraint firstAttribute="trailing" secondItem="zsA-N8-qNr" secondAttribute="trailing" id="YUX-6P-JWS"/>
+                            <constraint firstAttribute="bottom" secondItem="ufh-xb-Nii" secondAttribute="bottom" id="oSd-hg-DmX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pexels-photo-248771" width="2005" height="1085"/>
+    </resources>
+</document>
